@@ -57,10 +57,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/Users/nicho/Projects/BetterReadMe
+CMAKE_SOURCE_DIR = C:/Users/nicho/Projects/BetterReadME
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/Users/nicho/Projects/BetterReadMe/build
+CMAKE_BINARY_DIR = C:/Users/nicho/Projects/BetterReadME/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/nicho/Projects/BetterReadMe/build/CMakeFiles C:/Users/nicho/Projects/BetterReadMe/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/nicho/Projects/BetterReadME/build/CMakeFiles C:/Users/nicho/Projects/BetterReadME/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/nicho/Projects/BetterReadMe/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/nicho/Projects/BetterReadME/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,6 +129,30 @@ BetterReadME/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BetterReadME.dir/build.make CMakeFiles/BetterReadME.dir/build
 .PHONY : BetterReadME/fast
 
+create.obj: create.cpp.obj
+.PHONY : create.obj
+
+# target to build an object file
+create.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BetterReadME.dir/build.make CMakeFiles/BetterReadME.dir/create.cpp.obj
+.PHONY : create.cpp.obj
+
+create.i: create.cpp.i
+.PHONY : create.i
+
+# target to preprocess a source file
+create.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BetterReadME.dir/build.make CMakeFiles/BetterReadME.dir/create.cpp.i
+.PHONY : create.cpp.i
+
+create.s: create.cpp.s
+.PHONY : create.s
+
+# target to generate assembly for a file
+create.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BetterReadME.dir/build.make CMakeFiles/BetterReadME.dir/create.cpp.s
+.PHONY : create.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BetterReadME"
+	@echo "... create.obj"
+	@echo "... create.i"
+	@echo "... create.s"
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"

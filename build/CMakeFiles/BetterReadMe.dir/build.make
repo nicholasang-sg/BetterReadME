@@ -53,10 +53,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/Users/nicho/Projects/BetterReadMe
+CMAKE_SOURCE_DIR = C:/Users/nicho/Projects/BetterReadME
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/Users/nicho/Projects/BetterReadMe/build
+CMAKE_BINARY_DIR = C:/Users/nicho/Projects/BetterReadME/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/BetterReadME.dir/depend.make
@@ -73,31 +73,47 @@ CMakeFiles/BetterReadME.dir/codegen:
 .PHONY : CMakeFiles/BetterReadME.dir/codegen
 
 CMakeFiles/BetterReadME.dir/main.cpp.obj: CMakeFiles/BetterReadME.dir/flags.make
-CMakeFiles/BetterReadME.dir/main.cpp.obj: C:/Users/nicho/Projects/BetterReadMe/main.cpp
+CMakeFiles/BetterReadME.dir/main.cpp.obj: C:/Users/nicho/Projects/BetterReadME/main.cpp
 CMakeFiles/BetterReadME.dir/main.cpp.obj: CMakeFiles/BetterReadME.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/nicho/Projects/BetterReadMe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BetterReadME.dir/main.cpp.obj"
-	C:/msys64/ucrt64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BetterReadME.dir/main.cpp.obj -MF CMakeFiles/BetterReadME.dir/main.cpp.obj.d -o CMakeFiles/BetterReadME.dir/main.cpp.obj -c C:/Users/nicho/Projects/BetterReadMe/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/nicho/Projects/BetterReadME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BetterReadME.dir/main.cpp.obj"
+	C:/msys64/ucrt64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BetterReadME.dir/main.cpp.obj -MF CMakeFiles/BetterReadME.dir/main.cpp.obj.d -o CMakeFiles/BetterReadME.dir/main.cpp.obj -c C:/Users/nicho/Projects/BetterReadME/main.cpp
 
 CMakeFiles/BetterReadME.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BetterReadME.dir/main.cpp.i"
-	C:/msys64/ucrt64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/nicho/Projects/BetterReadMe/main.cpp > CMakeFiles/BetterReadME.dir/main.cpp.i
+	C:/msys64/ucrt64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/nicho/Projects/BetterReadME/main.cpp > CMakeFiles/BetterReadME.dir/main.cpp.i
 
 CMakeFiles/BetterReadME.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BetterReadME.dir/main.cpp.s"
-	C:/msys64/ucrt64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/nicho/Projects/BetterReadMe/main.cpp -o CMakeFiles/BetterReadME.dir/main.cpp.s
+	C:/msys64/ucrt64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/nicho/Projects/BetterReadME/main.cpp -o CMakeFiles/BetterReadME.dir/main.cpp.s
+
+CMakeFiles/BetterReadME.dir/create.cpp.obj: CMakeFiles/BetterReadME.dir/flags.make
+CMakeFiles/BetterReadME.dir/create.cpp.obj: C:/Users/nicho/Projects/BetterReadME/create.cpp
+CMakeFiles/BetterReadME.dir/create.cpp.obj: CMakeFiles/BetterReadME.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/nicho/Projects/BetterReadME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BetterReadME.dir/create.cpp.obj"
+	C:/msys64/ucrt64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BetterReadME.dir/create.cpp.obj -MF CMakeFiles/BetterReadME.dir/create.cpp.obj.d -o CMakeFiles/BetterReadME.dir/create.cpp.obj -c C:/Users/nicho/Projects/BetterReadME/create.cpp
+
+CMakeFiles/BetterReadME.dir/create.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BetterReadME.dir/create.cpp.i"
+	C:/msys64/ucrt64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/nicho/Projects/BetterReadME/create.cpp > CMakeFiles/BetterReadME.dir/create.cpp.i
+
+CMakeFiles/BetterReadME.dir/create.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BetterReadME.dir/create.cpp.s"
+	C:/msys64/ucrt64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/nicho/Projects/BetterReadME/create.cpp -o CMakeFiles/BetterReadME.dir/create.cpp.s
 
 # Object files for target BetterReadME
 BetterReadME_OBJECTS = \
-"CMakeFiles/BetterReadME.dir/main.cpp.obj"
+"CMakeFiles/BetterReadME.dir/main.cpp.obj" \
+"CMakeFiles/BetterReadME.dir/create.cpp.obj"
 
 # External object files for target BetterReadME
 BetterReadME_EXTERNAL_OBJECTS =
 
 BetterReadME.exe: CMakeFiles/BetterReadME.dir/main.cpp.obj
+BetterReadME.exe: CMakeFiles/BetterReadME.dir/create.cpp.obj
 BetterReadME.exe: CMakeFiles/BetterReadME.dir/build.make
 BetterReadME.exe: CMakeFiles/BetterReadME.dir/linkLibs.rsp
 BetterReadME.exe: CMakeFiles/BetterReadME.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/nicho/Projects/BetterReadMe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable BetterReadME.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/nicho/Projects/BetterReadME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable BetterReadME.exe"
 	"C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/BetterReadME.dir/objects.a
 	C:/msys64/ucrt64/bin/ar.exe qc CMakeFiles/BetterReadME.dir/objects.a @CMakeFiles/BetterReadME.dir/objects1.rsp
 	C:/msys64/ucrt64/bin/c++.exe -Wl,--whole-archive CMakeFiles/BetterReadME.dir/objects.a -Wl,--no-whole-archive -o BetterReadME.exe -Wl,--out-implib,libBetterReadME.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/BetterReadME.dir/linkLibs.rsp
@@ -111,6 +127,6 @@ CMakeFiles/BetterReadME.dir/clean:
 .PHONY : CMakeFiles/BetterReadME.dir/clean
 
 CMakeFiles/BetterReadME.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/Users/nicho/Projects/BetterReadMe C:/Users/nicho/Projects/BetterReadMe C:/Users/nicho/Projects/BetterReadMe/build C:/Users/nicho/Projects/BetterReadMe/build C:/Users/nicho/Projects/BetterReadMe/build/CMakeFiles/BetterReadME.dir/DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/Users/nicho/Projects/BetterReadME C:/Users/nicho/Projects/BetterReadME C:/Users/nicho/Projects/BetterReadME/build C:/Users/nicho/Projects/BetterReadME/build C:/Users/nicho/Projects/BetterReadME/build/CMakeFiles/BetterReadME.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/BetterReadME.dir/depend
 
