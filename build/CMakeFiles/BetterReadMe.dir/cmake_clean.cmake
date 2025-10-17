@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "BetterReadME.exe"
   "BetterReadME.exe.manifest"
   "BetterReadME.pdb"
+  "CMakeFiles/BetterReadME.dir/changeDir.cpp.obj"
+  "CMakeFiles/BetterReadME.dir/changeDir.cpp.obj.d"
   "CMakeFiles/BetterReadME.dir/create.cpp.obj"
   "CMakeFiles/BetterReadME.dir/create.cpp.obj.d"
   "CMakeFiles/BetterReadME.dir/main.cpp.obj"

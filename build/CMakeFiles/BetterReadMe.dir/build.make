@@ -100,20 +100,36 @@ CMakeFiles/BetterReadME.dir/create.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BetterReadME.dir/create.cpp.s"
 	C:/msys64/ucrt64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/nicho/Projects/BetterReadME/create.cpp -o CMakeFiles/BetterReadME.dir/create.cpp.s
 
+CMakeFiles/BetterReadME.dir/changeDir.cpp.obj: CMakeFiles/BetterReadME.dir/flags.make
+CMakeFiles/BetterReadME.dir/changeDir.cpp.obj: C:/Users/nicho/Projects/BetterReadME/changeDir.cpp
+CMakeFiles/BetterReadME.dir/changeDir.cpp.obj: CMakeFiles/BetterReadME.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/nicho/Projects/BetterReadME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BetterReadME.dir/changeDir.cpp.obj"
+	C:/msys64/ucrt64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BetterReadME.dir/changeDir.cpp.obj -MF CMakeFiles/BetterReadME.dir/changeDir.cpp.obj.d -o CMakeFiles/BetterReadME.dir/changeDir.cpp.obj -c C:/Users/nicho/Projects/BetterReadME/changeDir.cpp
+
+CMakeFiles/BetterReadME.dir/changeDir.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BetterReadME.dir/changeDir.cpp.i"
+	C:/msys64/ucrt64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/nicho/Projects/BetterReadME/changeDir.cpp > CMakeFiles/BetterReadME.dir/changeDir.cpp.i
+
+CMakeFiles/BetterReadME.dir/changeDir.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BetterReadME.dir/changeDir.cpp.s"
+	C:/msys64/ucrt64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/nicho/Projects/BetterReadME/changeDir.cpp -o CMakeFiles/BetterReadME.dir/changeDir.cpp.s
+
 # Object files for target BetterReadME
 BetterReadME_OBJECTS = \
 "CMakeFiles/BetterReadME.dir/main.cpp.obj" \
-"CMakeFiles/BetterReadME.dir/create.cpp.obj"
+"CMakeFiles/BetterReadME.dir/create.cpp.obj" \
+"CMakeFiles/BetterReadME.dir/changeDir.cpp.obj"
 
 # External object files for target BetterReadME
 BetterReadME_EXTERNAL_OBJECTS =
 
 BetterReadME.exe: CMakeFiles/BetterReadME.dir/main.cpp.obj
 BetterReadME.exe: CMakeFiles/BetterReadME.dir/create.cpp.obj
+BetterReadME.exe: CMakeFiles/BetterReadME.dir/changeDir.cpp.obj
 BetterReadME.exe: CMakeFiles/BetterReadME.dir/build.make
 BetterReadME.exe: CMakeFiles/BetterReadME.dir/linkLibs.rsp
 BetterReadME.exe: CMakeFiles/BetterReadME.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/nicho/Projects/BetterReadME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable BetterReadME.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/nicho/Projects/BetterReadME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable BetterReadME.exe"
 	"C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/BetterReadME.dir/objects.a
 	C:/msys64/ucrt64/bin/ar.exe qc CMakeFiles/BetterReadME.dir/objects.a @CMakeFiles/BetterReadME.dir/objects1.rsp
 	C:/msys64/ucrt64/bin/c++.exe -Wl,--whole-archive CMakeFiles/BetterReadME.dir/objects.a -Wl,--no-whole-archive -o BetterReadME.exe -Wl,--out-implib,libBetterReadME.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/BetterReadME.dir/linkLibs.rsp

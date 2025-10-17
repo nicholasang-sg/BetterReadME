@@ -85,12 +85,12 @@ clean: CMakeFiles/BetterReadME.dir/clean
 CMakeFiles/BetterReadME.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BetterReadME.dir/build.make CMakeFiles/BetterReadME.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BetterReadME.dir/build.make CMakeFiles/BetterReadME.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:/Users/nicho/Projects/BetterReadME/build/CMakeFiles --progress-num=1,2,3 "Built target BetterReadME"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:/Users/nicho/Projects/BetterReadME/build/CMakeFiles --progress-num=1,2,3,4 "Built target BetterReadME"
 .PHONY : CMakeFiles/BetterReadME.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/BetterReadME.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/nicho/Projects/BetterReadME/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/nicho/Projects/BetterReadME/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/BetterReadME.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/nicho/Projects/BetterReadME/build/CMakeFiles 0
 .PHONY : CMakeFiles/BetterReadME.dir/rule
@@ -102,7 +102,7 @@ BetterReadME: CMakeFiles/BetterReadME.dir/rule
 # codegen rule for target.
 CMakeFiles/BetterReadME.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BetterReadME.dir/build.make CMakeFiles/BetterReadME.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:/Users/nicho/Projects/BetterReadME/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target BetterReadME"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:/Users/nicho/Projects/BetterReadME/build/CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target BetterReadME"
 .PHONY : CMakeFiles/BetterReadME.dir/codegen
 
 # clean rule for target.

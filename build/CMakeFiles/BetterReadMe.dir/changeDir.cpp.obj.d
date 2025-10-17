@@ -1,5 +1,5 @@
-CMakeFiles/BetterReadME.dir/main.cpp.obj: \
- C:/Users/nicho/Projects/BetterReadME/main.cpp \
+CMakeFiles/BetterReadME.dir/changeDir.cpp.obj: \
+ C:/Users/nicho/Projects/BetterReadME/changeDir.cpp \
  C:/msys64/ucrt64/include/c++/15.2.0/iostream \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -144,10 +144,6 @@ CMakeFiles/BetterReadME.dir/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_vector.h \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_bvector.h \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/vector.tcc \
- C:/msys64/ucrt64/include/c++/15.2.0/sstream \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/sstream.tcc \
  C:/msys64/ucrt64/include/direct.h C:/msys64/ucrt64/include/io.h \
  C:/msys64/ucrt64/include/string.h \
- C:/msys64/ucrt64/include/sec_api/string_s.h \
- C:/Users/nicho/Projects/BetterReadME/create.h \
- C:/Users/nicho/Projects/BetterReadME/changeDir.h
+ C:/msys64/ucrt64/include/sec_api/string_s.h

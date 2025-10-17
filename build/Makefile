@@ -129,6 +129,30 @@ BetterReadME/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BetterReadME.dir/build.make CMakeFiles/BetterReadME.dir/build
 .PHONY : BetterReadME/fast
 
+changeDir.obj: changeDir.cpp.obj
+.PHONY : changeDir.obj
+
+# target to build an object file
+changeDir.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BetterReadME.dir/build.make CMakeFiles/BetterReadME.dir/changeDir.cpp.obj
+.PHONY : changeDir.cpp.obj
+
+changeDir.i: changeDir.cpp.i
+.PHONY : changeDir.i
+
+# target to preprocess a source file
+changeDir.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BetterReadME.dir/build.make CMakeFiles/BetterReadME.dir/changeDir.cpp.i
+.PHONY : changeDir.cpp.i
+
+changeDir.s: changeDir.cpp.s
+.PHONY : changeDir.s
+
+# target to generate assembly for a file
+changeDir.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BetterReadME.dir/build.make CMakeFiles/BetterReadME.dir/changeDir.cpp.s
+.PHONY : changeDir.cpp.s
+
 create.obj: create.cpp.obj
 .PHONY : create.obj
 
@@ -186,6 +210,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BetterReadME"
+	@echo "... changeDir.obj"
+	@echo "... changeDir.i"
+	@echo "... changeDir.s"
 	@echo "... create.obj"
 	@echo "... create.i"
 	@echo "... create.s"
