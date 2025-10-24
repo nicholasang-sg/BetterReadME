@@ -1,0 +1,3 @@
+C:/Users/nicho/Projects/BetterReadME/build/CMakeFiles/BetterReadME.dir
+C:/Users/nicho/Projects/BetterReadME/build/CMakeFiles/edit_cache.dir
+C:/Users/nicho/Projects/BetterReadME/build/CMakeFiles/rebuild_cache.dir
