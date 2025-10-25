@@ -32,30 +32,6 @@ void welcomeMessage() {
 }
 
 int main() {
-    PyStatus status;
-    PyConfig config;
-
-    // Initialize config
-    PyConfig_InitPythonConfig(&config);
-    config.home = Py_DecodeLocale("python_embed", NULL); // embedded Python folder
-
-    // Initialize Python
-    status = Py_InitializeFromConfig(&config);
-    if (PyStatus_Exception(status)) {
-        Py_ExitStatusException(status);
-        return 1;
-    }
-
-PyRun_SimpleString(R"(
-print("All available languages downloaded and installed!")
-)");
-
-
-    // Finalize Python
-    Py_Finalize();
-    PyConfig_Clear(&config);
-
-    return 0;
 
     std::vector<std::string> commands;
     std::string inputCommand;
